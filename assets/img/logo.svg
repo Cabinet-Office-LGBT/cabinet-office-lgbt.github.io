@@ -21,9 +21,9 @@
       <path fill="#f28917" d="M0 0h0l1000 1000H0z"/>
       <path fill="#e22016" d="M0 0h0l500 500H0z"/>
 
-      <text x="5000" y="1350" font-size="1000px" font-family="Arial" fill="#fff" stroke="#000000" stroke-width="10px" style="paint-order: stroke;">A modern</text>
+      <text x="5000" y="1350" font-size="1000px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" fill="#fff" stroke="#000000" stroke-width="10px" style="paint-order: stroke;">A modern</text>
 
-      <text x="5000" y="2350" font-size="1000px" font-family="Arial" fill="#fff" stroke="#000000" stroke-width="10px" style="paint-order: stroke;">Civil Service</text>
+      <text x="5000" y="2350" font-size="1000px" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" fill="#fff" stroke="#000000" stroke-width="10px" style="paint-order: stroke;">Civil Service</text>
     </pattern>
   </defs>
 

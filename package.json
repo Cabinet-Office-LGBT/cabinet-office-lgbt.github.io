@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "env NODE_ENV=production npx eleventy",
-    "serve": "npx eleventy --serve"
+    "watch:sass": "sass --watch assets/css:_site/assets/css",
+    "build:sass": "sass assets/css:_site/assets/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "@11ty/eleventy-navigation": "^0.3.5"
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.56.1"
   }
 }

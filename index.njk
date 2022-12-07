@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: Cabinet Office LGBT+
+---
+<h1>Welcome to the <span class="welcome-text">Cabinet Office LGBT+</span> Network.</h1>
+
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget turpis ac ante pretium euismod. Curabitur vel ullamcorper risus, vitae convallis nisi. Curabitur maximus enim quis sapien tempus, eu malesuada felis ornare. Phasellus orci justo, commodo eu sapien in, placerat tempus turpis. Mauris quis mi aliquet, tempor metus ut, scelerisque arcu. Praesent aliquet elit ante, ut maximus neque vestibulum at. Proin ultricies id elit quis euismod. Nullam nulla nulla, egestas eget bibendum ac, consequat a purus. Nullam at mi efficitur, condimentum mi non, placerat magna. Cras volutpat orci et sem tempor ornare.</p>
+<p> Suspendisse risus nisl, varius ut urna quis, mattis vehicula nulla. Pellentesque et vehicula tellus. Phasellus non hendrerit ex. Quisque quis tincidunt ante. Pellentesque congue eleifend libero, ac lacinia purus commodo quis. Praesent in magna molestie, sodales sapien iaculis, tincidunt risus. Suspendisse non odio pellentesque, condimentum libero et, volutpat odio. Suspendisse ut sagittis sapien. Morbi convallis purus id odio lacinia, et pulvinar urna fermentum. </p>
+<p> Integer fermentum id neque sed scelerisque. Fusce venenatis magna vitae eros dictum, id placerat massa fermentum. Pellentesque ut mi sed neque faucibus rutrum eget in felis. Proin blandit neque vel est dictum tincidunt. Nunc quis dapibus justo. Phasellus vel accumsan nulla. Ut ut porta lectus. Donec rhoncus, massa non accumsan ultrices, sem nulla ultricies lacus, vitae ultricies lorem arcu non neque. Pellentesque condimentum, felis nec luctus molestie, nisi risus lobortis quam, id auctor sapien quam eu nunc. Duis aliquet neque eget elit bibendum, at cursus ante lobortis. Sed ornare consectetur varius. Pellentesque fringilla enim in arcu dapibus tincidunt. Nulla faucibus arcu lorem, a sagittis leo eleifend a. Sed quis lorem ligula. Cras quis cursus ligula. Quisque condimentum ex turpis, vel pretium justo rhoncus sed. </p>
+
+<section class="news">
+  <h2>In the news</h2>
+  <ul>
+  {%- for post in collections.post -%}
+    <li>
+      <article>
+        <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
+        <p>{{post.data.description}}</p>
+        <p>{{post.date.toUTCString()}} by {{post.data.author}}</p>
+        <hr>
+      </article>
+    </li>
+  {%- endfor -%}
+  </ul>
+</section>
+
