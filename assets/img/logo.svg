@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <defs>
+    <pattern id="flag" width="480" height="120" viewBox="0,0,12000,3000" patternUnits="userSpaceOnUse">
+      <path fill="#6d2380" d="M0 0h15000v3000H0z"/>
+      <path fill="#2c58a4" d="M0 0h15000v2500H0z"/>
+      <path fill="#78b82a" d="M0 0h15000v2000H0z"/>
+      <path fill="#efe524" d="M0 0h15000v1500H0z"/>
+      <path fill="#f28917" d="M0 0h15000v1000H0z"/>
+      <path fill="#e22016" d="M0 0h15000v500H0z"/>
+      <path d="M0 0h2500l1500 1500L2500 3000H0z"/>
+      <path fill="#945516" d="M0 0h2200l1500 1500L2200 3000H0z"/>
+      <path fill="#7bcce5" d="M0 0h1900l1500 1500L1900 3000H0z"/>
+      <path fill="#f4aec8" d="M0 0h1600l1500 1500L1600 3000H0z"/>
+      <path fill="#fff" d="M0 0h1300l1500 1500L1300 3000H0z"/>
+      <path fill="#fdd817" d="M0 0h1000l1500 1500L1000 3000H0z"/>
+      <circle cx="1900" cy="1500" r="300" fill="none" stroke="#66338b" stroke-width="50"/>
+      <path fill="#78b82a" d="M0 3000h0l1500 -1500H0z"/>
+      <path fill="#2c58a4" d="M0 3000h0l1000 -1000H0z"/>
+      <path fill="#6d2380" d="M0 3000h0l500 -500H0z"/>
+      <path fill="#efe524" d="M0 0h0l1500 1500H0z"/>
+      <path fill="#f28917" d="M0 0h0l1000 1000H0z"/>
+      <path fill="#e22016" d="M0 0h0l500 500H0z"/>
+
+      <text x="5000" y="1350" font-size="1000px" font-family="Arial" fill="#fff" stroke="#000000" stroke-width="10px" style="paint-order: stroke;">A modern</text>
+
+      <text x="5000" y="2350" font-size="1000px" font-family="Arial" fill="#fff" stroke="#000000" stroke-width="10px" style="paint-order: stroke;">Civil Service</text>
+    </pattern>
+  </defs>
+
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#flag)"></rect>
+</svg>
